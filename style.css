@@ -1,0 +1,126 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none;     /* IE/Edge */
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e3e3;
+}
+
+.body{
+    margin-top: 20px;
+    width: 450px;
+    height: 550px;
+    background-color: #393E46;
+    border-radius: 15px;
+    box-shadow: rgb(57, 62, 70) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.5;
+}
+
+.display{
+    border-radius: 5px;
+    width: 400px;
+    height: 85px;
+    background-color: #EEEEEE;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.62) 0px 5px 15px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Calibri Light";
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+    -webkit-user-select: text; /* Safari */
+    -ms-user-select: text;     /* IE/Edge */
+    transition: ease 0.3s;
+}
+
+.clear-bar{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.clear-bar * {
+    width: 186px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Calibri Light";
+    box-shadow: rgba(44, 44, 44, 0.47) 0px 5px 15px;
+    background-color: #1d2129;
+    outline: 2px solid #ffffff;
+    border-radius: 4px;
+}
+.clear-bar *:hover{
+    background-color: #060809;
+}
+.key-bar{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-row-gap: 20px;
+    grid-column-gap: 24px;
+}
+
+.key-bar *{
+    width: 80px;
+    height: 65px;
+    background-color: #222831;
+    box-shadow: rgba(44, 44, 44, 0.47) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Calibri Light";
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+.key-bar *:hover{
+    background-color: #0e1215;
+
+}
+
+.key.num {
+    border:none;
+    background-color: #15191e;
+}
+.key.num:hover {
+    border:none;
+    background-color: #060809;
+}
+
+a{
+    text-decoration: none;
+}
